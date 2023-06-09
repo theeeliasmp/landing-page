@@ -1,3 +1,46 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .header {
     background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    align-items: center;
+    margin: 0;
 }
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header-links {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.body1 {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    color: #f9faf8;
+}
+
+.right-body1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-body1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+    
