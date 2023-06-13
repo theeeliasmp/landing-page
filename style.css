@@ -36,7 +36,7 @@ body {
     color: #f9faf8;
     gap: 5vw;
     align-items: center;
-    padding: 10vh 15vw;
+    padding: 8vh 15vw;
 }
 
 .left-body1 {
@@ -140,7 +140,29 @@ body {
     align-items: center;
 }
 
+.history p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
 .body4 {
     display: flex;
     flex: 1 1 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action {
+    background-color: #3882F6;
+    border-radius: 20px;
+    padding: 18px;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
