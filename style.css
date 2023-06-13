@@ -1,5 +1,9 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .header {
@@ -7,13 +11,13 @@ body {
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
-    padding: 12px;
+    padding: 18px;
     align-items: center;
     margin: 0;
 }
 
 .logo {
-    font-weight: 700;
+    font-weight: 950;
     font-size: 20px;
 }
 
@@ -28,19 +32,115 @@ body {
     background-color: #1F2937;
     margin: 0;
     display: flex;
-    flex: 1;
+    flex: 1 1 50vh;
     color: #f9faf8;
-}
-
-.right-body1 {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    gap: 5vw;
+    align-items: center;
+    padding: 10vh 15vw;
 }
 
 .left-body1 {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
 }
+.intro {
+    font-weight: 1000;
+    font-size: 48px;
+    color: #f9faf8
+}
+
+.email {
+    background-color: #3882F6;
+    padding: 12px 16px;
+    text-align: center;
+    width: 130px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.right-body1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.body2 {
+    display: flex;
+    flex: 1 1 30vh;
+    flex-direction: column;
     
+}
+
+.body2-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+}
+
+.skills-div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    justify-content: space-between;
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 160px;
+    
+}
+
+.skill-img {
+    max-width: 100%;
+    
+}
+
+.skill-pic {
+    border: solid #3882F6;
+    border-radius: 20px;
+    height: 150px;
+    
+}
+.bio {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainpic {
+    max-width: 400px;
+    border-radius: 40px;
+    
+}
+
+.body3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1 1 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.body4 {
+    display: flex;
+    flex: 1 1 30vh;
+}
