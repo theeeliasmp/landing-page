@@ -217,3 +217,47 @@ a {
     align-items: center;
     border-radius: 30px 30px 0 0;
 }
+
+@media only screen and (max-width: 520px) {
+.header {
+    flex-direction: column;
+}
+.header-links {
+    font-size: 3vw;
+    padding: 0;
+}
+.bio {
+    font-size: 2vw;
+}
+
+.intro {
+    font-size: 8vw;
+}
+
+body > .body1 > .right-body1 > .mainpic {
+    max-width: 30vw;
+}
+
+.skills-div {
+    justify-content: center;
+}
+
+body > .body3 > .history > .p-history {
+    font-size: 5vw;
+}
+body > .body4 > .call-action {
+    flex-direction: column;
+}
+
+body > .body4 > .call-action > .call-left {
+    margin-bottom: 3vw;
+}
+
+body > .body4 > .call-action > .call-left > p {
+    font-size: 3vw;
+}
+
+.footer {
+    font-size: 2vw;
+}
+}
