@@ -227,7 +227,7 @@ a {
     padding: 0;
 }
 .bio {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 .intro {
@@ -235,7 +235,7 @@ a {
 }
 
 body > .body1 > .right-body1 > .mainpic {
-    max-width: 30vw;
+    max-width: 35vw;
 }
 
 .skills-div {
