@@ -107,15 +107,13 @@ body {
 
 .skill-img {
     max-width: 100%;
-    
-}
-
-.skill-pic {
     border: solid #3882F6;
     border-radius: 20px;
     height: 150px;
     
 }
+
+
 .bio {
     font-size: 18px;
     color: #E5E7EB;
