@@ -221,6 +221,7 @@ a {
 @media only screen and (max-width: 520px) {
 .header {
     flex-direction: column;
+    
 }
 .header-links {
     font-size: 3vw;
@@ -230,12 +231,15 @@ a {
 .body1 {
     padding-left: 10vw;
     padding-right: 10vw;
+    padding-top: 0;
+    padding-bottom: 8vw;
 }
 .bio {
     font-size: 3vw;
 }
 
 .intro {
+    margin-top: 2vw;
     font-size: 8vw;
 }
 
