@@ -53,6 +53,11 @@ body {
     text-indent: 40px;
 }
 
+a {
+    color: #f9faf8;
+    text-decoration: none; /* no underline */
+  }
+
 .email {
     background-color: #3882F6;
     padding: 12px 16px;
