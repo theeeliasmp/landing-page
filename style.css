@@ -74,7 +74,7 @@ a {
     display: flex;
     flex-direction: row;
     flex: 1;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
    
 }
@@ -131,11 +131,7 @@ a {
     color: #E5E7EB;
 }
 
-.img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .mainpic {
     max-width: 400px;
     border-radius: 40px;
