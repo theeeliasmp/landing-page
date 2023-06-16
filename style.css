@@ -241,6 +241,9 @@ body > .body1 > .right-body1 > .mainpic {
 .skills-div {
     justify-content: center;
 }
+body > .body3 > .history {
+    padding: 10vw;
+}
 
 body > .body3 > .history > .p-history {
     font-size: 5vw;
