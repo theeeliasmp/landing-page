@@ -226,6 +226,11 @@ a {
     font-size: 3vw;
     padding: 0;
 }
+
+.body1 {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
 .bio {
     font-size: 3vw;
 }
@@ -248,8 +253,14 @@ body > .body3 > .history {
 body > .body3 > .history > .p-history {
     font-size: 5vw;
 }
+
+
+
 body > .body4 > .call-action {
     flex-direction: column;
+    min-width: 50vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 body > .body4 > .call-action > .call-left {
