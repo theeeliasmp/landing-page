@@ -21,6 +21,7 @@ body {
 .logo {
     font-weight: 950;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .header-links {
@@ -150,7 +151,7 @@ a {
 }
 
 .history {
-    padding: 5vh 20vw;
+    padding: 5vh 10vw;
 }
 
 .history > p {
@@ -222,6 +223,10 @@ a {
 .header {
     flex-direction: column;
     
+}
+
+.logo {
+    margin-bottom: 3vw;
 }
 .header-links {
     font-size: 3vw;
