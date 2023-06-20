@@ -293,8 +293,9 @@ a {
 
     }
 
-    .logo {
+    body > .header > .logo {
         margin-bottom: 3vw;
+        width: 55vw;
     }
 
     .header-links {
@@ -357,5 +358,32 @@ a {
 
     .footer {
         font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+    body > .header {
+        flex-direction: column;
+
+
+    }
+
+    .logo {
+        width: 35vw;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .header {
+        flex-direction: column;
+
+    }
+    
+    .logo {
+        width: 40vw;
+        display: block;
     }
 }
