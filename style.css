@@ -387,3 +387,9 @@ a {
         display: block;
     }
 }
+
+@media only screen and (max-width: 680px) {
+    .skills-div {
+        justify-content: center;
+    }
+}
