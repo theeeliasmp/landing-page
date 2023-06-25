@@ -338,6 +338,10 @@ a {
 
     }
 
+    body>.top-landing {
+        height: 110vh;
+    }
+
     body>.top-landing>.container>.header>.logo {
         margin-bottom: 3vw;
         width: 55vw;
