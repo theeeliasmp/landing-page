@@ -27,15 +27,48 @@ body {
     text-decoration: underline;
 }
 
+
+.link-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 80px;
+    padding: 10px 20px;
+    justify-content: center;
+    margin: 0;
+    border: rgb(253, 170, 46) solid 4px;
+}
 .header-links {
+    font-weight: bold;
     margin: 0;
     list-style: none;
     display: flex;
     gap: 20px;
+    flex: 1;
+    padding: 0;
+    
 }
 
+.header-links a {
+    color: #2f4463;
+}
+.top-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10vh;
+    color:#090d13;
+    background-image: linear-gradient(180deg, #1F2937 55%, #151022 );
+    flex: 1;
+    height: 100vh;
+    border-radius: 0 0 200px 200px;
+    padding-bottom: 5vh;
+    border-left: rgb(255, 235, 169) solid 20px;
+    border-right: rgb(255, 235, 169) solid 20px;
+    border-bottom: rgb(255, 235, 169) solid 20px;
+}
 .body1 {
-    background-color: #1F2937;
+   
     margin: 0;
     display: flex;
     flex: 1 1 50vh;
@@ -45,8 +78,8 @@ body {
     
     padding: 6vh 10vw;
     padding-top: 1vh;
-    height: 80vh;
-    border-radius: 0 0 30px 30px;
+
+    
 }
 
 .left-body1 {
@@ -81,8 +114,9 @@ a {
     color: #f9faf8;
     font-size: 18px;
     font-weight: 600;
-    border-radius: 10px;
-    border: none;
+    border-radius: 80px;
+    border: rgb(253, 170, 46) solid 4px;
+
 }
 
 .right-body1 {
@@ -135,7 +169,7 @@ a {
 .skill-img {
     max-width: 100%;
     border: solid #3882F6;
-    border-radius: 20px;
+    border-radius: 38px;
     height: 150px;
 
 }
@@ -149,7 +183,8 @@ a {
 
 .mainpic {
     max-width: 400px;
-    border-radius: 40px;
+    border-radius: 200px;
+    border: bisque solid 16px;
 
 }
 
@@ -303,7 +338,7 @@ a {
 
     }
 
-    body > .header > .logo {
+    body>.top-landing>.container>.header>.logo {
         margin-bottom: 3vw;
         width: 55vw;
     }
@@ -329,7 +364,7 @@ a {
         font-size: 8vw;
     }
 
-    body>.body1>.right-body1>.mainpic {
+    body>.top-landing>.container>.body1>.right-body1>.mainpic {
         max-width: 35vw;
     }
 
@@ -337,28 +372,28 @@ a {
         justify-content: center;
     }
 
-    body>.body3>.history {
+    body>.container>.body3>.history {
         padding: 10vw;
     }
 
-    body>.body3>.history>.p-history {
+    body>.container>.body3>.history>.p-history {
         font-size: 5vw;
     }
 
 
 
-    body>.body4>.call-action {
+    body>.container>.body4>.call-action {
         flex-direction: column;
         min-width: 50vw;
         padding-left: 10vw;
         padding-right: 10vw;
     }
 
-    body>.body4>.call-action>.call-left {
+    body>.container>.body4>.call-action>.call-left {
         margin-bottom: 3vw;
     }
 
-    body>.body4>.call-action>.call-left>p {
+    body>.container>.body4>.call-action>.call-left>p {
         font-size: 3vw;
     }
 
@@ -373,7 +408,7 @@ a {
 
 @media only screen and (max-width: 1050px) {
 
-    body > .header {
+    body>.container>.header {
         flex-direction: column;
 
 
@@ -391,7 +426,8 @@ a {
         flex-direction: column;
 
     }
-    
+
+
     .logo {
         width: 40vw;
         display: block;
@@ -403,7 +439,38 @@ a {
         justify-content: center;
     }
 
-    body>.body1>.right-body1>.mainpic {
+    body>.top-landing>.container>.body1>.right-body1>.mainpic {
         max-width: 35vw;
+    }
+}
+
+@media only screen and (min-width: 475px) {
+    .intro {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .intro {
+        font-size: 5vw;
+    }
+}
+
+
+@media only screen and (min-width: 1080px) { 
+
+    body>.top-landing>.container>.body1>.right-body1>.mainpic {
+        max-width: 45vh;
+    }
+    body>.top-landing>.container>.body1>.left-body1 {
+        max-width: 45vh;
+    }
+
+    .intro {
+        font-size: 3vw;
+    }
+
+    .emailadd {
+        margin-top: 5vh;
     }
 }
