@@ -36,7 +36,7 @@ body {
     padding: 10px 20px;
     justify-content: center;
     margin: 0;
-    border: rgb(255, 202, 121) solid 4px;
+    border: #4b84aa solid 4px;
 }
 .header-links {
     font-weight: bold;
@@ -107,7 +107,7 @@ a {
 }
 
 .emailadd {
-    background-color: #3882F6;
+    background-color: #217ed6;
     padding: 12px 16px;
     text-align: center;
     width: 130px;
