@@ -60,7 +60,7 @@ body {
     color:#090d13;
     background-image: linear-gradient(180deg, #1F2937 55%, #151022 );
     flex: 1;
-    height: 100vh;
+    min-height: -webkit-fill-available;
     border-radius: 0 0 200px 200px;
     padding-bottom: 5vh;
     border-left: rgb(255, 235, 169) solid 20px;
@@ -339,7 +339,7 @@ a {
     }
 
     body>.top-landing {
-        height: 105vh;
+        min-height: -webkit-fill-available;
     }
 
     body>.top-landing>.container>.header>.logo {
