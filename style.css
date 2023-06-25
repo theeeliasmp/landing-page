@@ -63,9 +63,9 @@ body {
     min-height: -webkit-fill-available;
     border-radius: 0 0 200px 200px;
     padding-bottom: 5vh;
-    border-left: rgb(255, 228, 169) solid 20px;
-    border-right: rgb(255, 228, 169) solid 20px;
-    border-bottom: rgb(255, 228, 169) solid 20px;
+    border-left: rgb(255, 226, 145) solid 20px;
+    border-right: rgb(255, 226, 145) solid 20px;
+    border-bottom: rgb(255, 226, 145) solid 20px;
 }
 .body1 {
    
