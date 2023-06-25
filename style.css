@@ -31,6 +31,8 @@ body {
 .link-box {
     display: flex;
     flex-direction: row;
+    flex-grow: 0;
+    
     background-color: #fff;
     border-radius: 80px;
     padding: 10px 20px;
@@ -420,7 +422,7 @@ a {
     }
 
     .logo {
-        width: 35vw;
+        width: 24vw;
         display: block;
     }
 }
@@ -462,7 +464,11 @@ a {
 }
 
 
-@media only screen and (min-width: 1080px) { 
+@media only screen and (min-width: 1050px) { 
+
+    body>.top-landing>.container>.header>.logo {
+        width: 26vw;
+    }
 
     body>.top-landing>.container>.body1>.right-body1>.mainpic {
         max-width: 45vh;
