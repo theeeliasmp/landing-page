@@ -340,7 +340,7 @@ a {
 
     body>.top-landing {
         min-height: -webkit-fill-available;
-        border-radius: 0 0 100px 100px;
+        border-radius: 0 0 80px 80px;
     }
 
     body>.top-landing>.container>.header>.logo {
