@@ -100,7 +100,7 @@ body {
     font-size: 48px;
     color: #f9faf8;
     line-height: 5vh;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -372,6 +372,7 @@ a {
     .intro {
         margin-top: 2vw;
         font-size: 8vw;
+        
     }
 
     body>.top-landing>.container>.body1 {
@@ -478,6 +479,7 @@ a {
     body>.top-landing>.container>.body1>.left-body1>.intro {
         text-align: center;
         
+        
     }
 
 
@@ -510,6 +512,13 @@ a {
 }
 
 
+@media only screen and (min-width: 1300px) {
+    .intro {
+        line-height: 6vh;
+        
+    }
+} 
+
 @media only screen and (min-width: 1050px) { 
 
     
@@ -526,6 +535,7 @@ a {
 
     .intro {
         font-size: 3vw;
+        
     }
 
     .emailadd {
