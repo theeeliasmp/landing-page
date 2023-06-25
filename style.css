@@ -63,9 +63,9 @@ body {
     min-height: -webkit-fill-available;
     border-radius: 0 0 200px 200px;
     padding-bottom: 5vh;
-    border-left: rgb(255, 226, 145) solid 20px;
-    border-right: rgb(255, 226, 145) solid 20px;
-    border-bottom: rgb(255, 226, 145) solid 20px;
+    border-left: rgb(255, 241, 203) solid 20px;
+    border-right: rgb(255, 241, 203) solid 20px;
+    border-bottom: rgb(255, 241, 203) solid 20px;
 }
 .body1 {
    
@@ -184,7 +184,7 @@ a {
 .mainpic {
     max-width: 400px;
     border-radius: 200px;
-    border: bisque solid 16px;
+    border: rgb(255, 241, 203) solid 16px;
 
 }
 
